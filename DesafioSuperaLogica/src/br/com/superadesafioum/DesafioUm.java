@@ -49,6 +49,8 @@ public class DesafioUm {
 			Collections.reverse(numImpar);
 			numPar.stream().forEach(numero -> System.out.println(numero));
 			numImpar.stream().forEach(numero -> System.out.println(numero));
+		
+			in.close();
 		}	
 		
 	}
