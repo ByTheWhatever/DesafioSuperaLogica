@@ -21,6 +21,8 @@ public class DesafioTres {
 		    // declaração do método que faz a subtração
 		    int contador = comparador(arr, k);
 		    System.out.println(contador);
+		    
+		    scanner.close();
 		  }
 
 		// método para subtrair os valores da array
